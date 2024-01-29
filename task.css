@@ -1,0 +1,145 @@
+body{
+    background-color: lightgray;
+}
+
+nav ul{
+    background-color: black;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.ul{
+    display: none;
+}
+
+.home{
+    background-color: orange;
+    color: white;
+    width: 50px;
+    text-align: center;
+    float: right;
+}
+
+.home a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.menu{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.content a:hover{
+    background-color: lightyellow;
+}
+
+.menu:hover:not(.home){
+    background-color: blueviolet;
+    color: white;
+}
+
+.section01{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 1100px;
+}
+
+.section01--text-box{
+    background-color: darksalmon;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.section02{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 1100px;
+}
+
+.section02--text-box{
+    background-color: darksalmon;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.aside01{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.aside01--text-box{
+    background-color: darksalmon;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.aside02{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.aside02--text-box{
+    background-color: darksalmon;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.aside03{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.aside03--text-box{
+    margin: 0;
+    padding: 10px;
+}
+
+.main-container{
+    display: flex;
+}
+
+@media screen and (max-width : 400px){
+    nav{
+        display: none;
+    }
+}
